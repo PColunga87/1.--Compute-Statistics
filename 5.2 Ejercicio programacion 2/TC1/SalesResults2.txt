@@ -1,0 +1,4 @@
+TC1.Sales.json sum = $2481.86
+TC2.Sales.json sum = $172388.21
+TC3.Sales.json sum = $171055.35
+Time Elapsed: 0.046875 seconds
