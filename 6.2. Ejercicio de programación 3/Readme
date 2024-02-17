@@ -1,0 +1,51 @@
+Pylint. 
+Resolved each pylint issue found, the common issue was docstrings, and that message is shared when  you don’t use a description in some instructions. The other one is about the quantity of characters used in a row. Pylint is running locally in the chapter of the customer script.
+
+
+Flake8.
+Reviewed each python file, and resolved each warning of flake 8, the common warning was “line too long” or “expected X blank lines, found x”.
+
+
+Notes.
+Using both analysers in scripts with a directory embedded.
+You can see in the image a bad score using pylint, because you are running the analyser locally and it doesn’t enable the connection to another script (unable to import …).
+
+In another example, you can see when running flake8 locally, only see some errors related to “blank lines”, and no are considering some warnings about the connection.
+
+Error to run the script in a local folder
+
+
+Solution 
+Run the script  as a module within the "Work" package.
+
+
+Adding an __init__.py file to a directory in Python indicates that the directory should be treated as a package.
+
+
+
+
+Finally, test each file with data of five customers, hotels and rooms, previously created as a .json file. 
+
+Json files
+
+
+To run the script, you need to run the unit of testing individually.
+Customer_test
+
+
+Hotel_test
+
+
+Reservation_test
+
+
+Room_test
+
+
+
+
+
+
+
+Final comments
+It's important to understand the benefits of making individual tests, it helps to simplify the script, and be more understandable.  Also with this exercise I can understand the benefits of using the analysers flake8 and pylint, both have great benefits, but each one can be used for specific error detections. The other thing that I discovered is about running with packages  (modules) and directories.
