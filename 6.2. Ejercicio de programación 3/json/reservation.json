@@ -1,0 +1,7 @@
+[
+    {"customer": 1, "hotel": 1, "room": 101},
+    {"customer": 2, "hotel": 2, "room": 202},
+    {"customer": 3, "hotel": 3, "room": 303},
+    {"customer": 4, "hotel": 4, "room": 404},
+    {"customer": 5, "hotel": 5, "room": 505}
+]

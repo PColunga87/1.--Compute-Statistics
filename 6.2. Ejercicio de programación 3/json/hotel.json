@@ -1,0 +1,7 @@
+[
+    {"name": "Sample Hotel 1", "location": "City Center", "rooms": [101, 102, 103]},
+    {"name": "Sample Hotel 2", "location": "Suburb", "rooms": [201, 202, 203]},
+    {"name": "Sample Hotel 3", "location": "Downtown", "rooms": [301, 302, 303]},
+    {"name": "Sample Hotel 4", "location": "Beachfront", "rooms": [401, 402, 403]},
+    {"name": "Sample Hotel 5", "location": "Mountain View", "rooms": [501, 502, 503]}
+]
