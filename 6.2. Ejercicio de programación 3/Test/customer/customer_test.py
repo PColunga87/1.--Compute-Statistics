@@ -35,9 +35,3 @@ class TestCustomer(unittest.TestCase):
             customer.modify_information("Jane Doe", "jane@example.com")
             self.assertEqual(customer.name, "Jane Doe")
             self.assertEqual(customer.email, "jane@example.com")
-
-    # Add more test cases as needed
-
-
-if __name__ == '__main__':
-    unittest.main()
